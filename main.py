@@ -77,7 +77,7 @@ humans = dict()
 
 for file in listdir(pictures):
     human, extension = file.split('.')
-    humans[human] = model.predict(preprocess_image('/Users/dishantsheth/Desktop/Real Time Facial Recognition/Pictures/%s.jpg' % (human)))[0,:]
+    humans[human] = model.predict(preprocess_image('/Users/regatte/Desktop/currentProjects/facial_recog/images/data/%s.jpg' % (human)))[0,:]
     
 def findCosineSimilarity(source_representation, test_representation):
     a = np.matmul(np.transpose(source_representation), test_representation)
