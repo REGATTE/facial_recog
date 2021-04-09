@@ -1,17 +1,3 @@
 # facial_recog
 
-to run the app 
-
-``` pip install -r requirements.txt ```
-
-``` python3 main.py ```
-
-to detect faces using a custom CNN
-
-08/04/2021: built a basic face-detect using a HAAr cascade classifier
-
-![Trump face detect](images/readme_data/basic_face_Detect.png)
-
-## Gender Classification: 
-
-building a custom CNN to classify
+TO LOCK-UNLOCK STUFF
