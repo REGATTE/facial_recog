@@ -14,8 +14,8 @@ hog_face_detector = dlib.get_frontal_face_detector()
 face_id = 1
 count = 0
 
-cehckPath("/Users/regatte/Desktop/currentProjects/facial_recog/images/data")
-
+cehckPath("images/data")
+user = input()
 while(True):
     ret, frame = cam.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -27,7 +27,7 @@ while(True):
         h = face.bottom() - y
         cv2.rectangle(frame, (x,y), (x+w,y+h), (0,255,0), 2)
         count += 1
-        cv2.imwrite("/Users/regatte/Desktop/currentProjects/facial_recog/images/data/user." + str(face_id) + '.' + str(count) + '.jpg', gray[y:y+h, x:x+w])
+        cv2.imwrite("images/data" + user + "=" + str(face_id) + '.' + str(count) + '.jpg', gray[y:y+h, x:x+w])
         cv2.imshow('creating datasets', frame)
     if cv2.waitKey(100) & 0xff ==27:
         break
