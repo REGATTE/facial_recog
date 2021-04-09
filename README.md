@@ -1,3 +1,3 @@
 # facial_recog
-
-TO LOCK-UNLOCK STUFF
+ 
+Used transfer learning.
