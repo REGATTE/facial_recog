@@ -15,7 +15,7 @@ face_id = 1
 count = 0
 
 cehckPath("images/data")
-user = input()
+user = ""
 while(True):
     ret, frame = cam.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
