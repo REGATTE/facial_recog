@@ -12,3 +12,5 @@ install the requiremnts by ``` pip3 install -r requirements.txt```
 first run ``` python3 createData.py``` to click 100 pictures of yourself, bearing in mind to input your name at line 18 ```user = ""```
 
 then run ``` python3 main.py ``` to get real-time facial recognition.
+
+This is the new version of an old repo(deleted). 
