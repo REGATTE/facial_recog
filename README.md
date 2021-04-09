@@ -1,5 +1,10 @@
 # facial_recog
- 
+
+face detect
+![face detect](images/readme_data/face_detect.png)
+
+face recog
+![face recog](images/readme_data/face_recog.png)
 Tested on OSX BIG SUR & Ubuntu 20.04 LTS.
 
 The user has to make minor changes for the code to work on their system.
