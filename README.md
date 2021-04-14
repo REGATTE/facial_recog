@@ -18,4 +18,7 @@ first run ``` python3 createData.py``` to click 100 pictures of yourself, bearin
 
 then run ``` python3 main.py ``` to get real-time facial recognition.
 
+If your video feed is laggy, please import the threadStream function from utils, like this ``` from uitls import threadedStream ```, 
+and use it like this ``` stream = threadStream(src=0).start() ```
+
 This is the new version of an old repo(deleted). 
