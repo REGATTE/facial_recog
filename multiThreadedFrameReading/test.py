@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     # grab a pointer to the video stream and initialize the FPS counter
     print ("[INFO] sampling frames from webcam")
-    stream = WebCamVideoStream(src=0).start()
+    stream = threadStream(src=0).start()
     
     fps = stream.get(cv2.cv.CV_CAP_PROP_FPS)
     print("FPS: {0}".format(fps))
